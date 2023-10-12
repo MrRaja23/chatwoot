@@ -15,7 +15,7 @@ gem 'browser'
 gem 'hashie'
 gem 'jbuilder'
 gem 'kaminari'
-gem 'responders'
+gem 'responders', '>= 3.1.1'
 gem 'rest-client'
 gem 'telephone_number'
 gem 'time_diff'
@@ -67,7 +67,7 @@ gem 'webpacker'
 gem 'barnes'
 
 ##--- gems for authentication & authorization ---##
-gem 'devise'
+gem 'devise', '>= 4.9.3'
 gem 'devise-secure_password', git: 'https://github.com/chatwoot/devise-secure_password', branch: 'chatwoot'
 gem 'devise_token_auth'
 # authorization
