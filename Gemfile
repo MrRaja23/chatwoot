@@ -163,7 +163,7 @@ gem 'audited', '~> 5.3'
 # need for google auth
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
-gem 'omniauth-rails_csrf_protection', '~> 1.0'
+gem 'omniauth-rails_csrf_protection', '~> 1.0', '>= 1.0.2'
 
 ## Gems for reponse bot
 # adds cosine similarity to postgres using vector extension
